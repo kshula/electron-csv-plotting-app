@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV App</title>
+</head>
+<body>
+    <h1>CSV Data Loader</h1>
+    <button id="selectCsvButton">Select CSV File</button>
+    <input type="text" id="csvFilePath" placeholder="CSV file path will appear here" readonly />
+    <table id="csvTable" border="1"></table>
+    <br />
+    <select id="columnSelect"></select>
+    <button id="plotColumnButton">Plot Column</button>
+    <p id="plotUrl"></p>
+    <script src="renderer.js"></script>
+</body>
+</html>
